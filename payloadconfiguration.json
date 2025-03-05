@@ -8,7 +8,7 @@
         "consent_age": 18
     },
     "uae_flow_payload": {
-        "reference": "3637383930303-337737373773-33883838dfttyysssisi",
+        "reference": "3637383930303-4455555666666-33883838dfttyysssisi",
         "country": "AE",
         "language": "en",
         "email": "",
@@ -107,7 +107,7 @@
         }
     },
     "non_uae_flow_payload": {
-        "reference": "your_reference_number",
+        "reference": "3637383930303-4455555666666-33883838dfttyysssisi",
         "country": "GB",
         "language": "en",
         "email": "",
