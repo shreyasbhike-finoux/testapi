@@ -1,0 +1,170 @@
+{
+    "auth": {
+        "auth_type": "access_token",
+        "access_token": ""
+    },
+    "config": {
+        "base_url": "api.shuftipro.com",
+        "consent_age": 18
+    },
+    "uae_flow_payload": {
+        "reference": "3637383930303-337737373773-33883838dfttyysssisi",
+        "country": "AE",
+        "language": "en",
+        "email": "",
+        "verification_mode": "image_only",
+        "allow_retry": "1",
+        "allow_warnings": "1",
+        "ttl": 60,
+        "allow_na_ocr_inputs": "0",
+        "document": {
+            "proof": "",
+            "supported_types": [
+                "id_card"
+            ],
+            "verification_instructions": {
+                "allow_paper_based": "1",
+                "allow_photocopy": "1",
+                "allow_colorcopy": "1",
+                "allow_black_and_white": "1",
+                "allow_laminated": "1",
+                "allow_screenshot": "1",
+                "allow_cropped": "1",
+                "allow_scanned": "1",
+                "allow_e_document": "1",
+                "allow_handwritten_document": "1"
+            },
+            "name": {
+                "first_name": "",
+                "middle_name": "",
+                "last_name": "",
+                "fuzzy_match": ""
+            },
+            "additional_proof": "",
+            "dob": "",
+            "age": "",
+            "issue_date": "",
+            "expiry_date": "",
+            "document_number": "",
+            "allow_offline": "1",
+            "allow_online": "1",
+            "fetch_enhanced_data": "1",
+            "backside_proof_required": "1",
+            "verification_mode": "image_only",
+            "gender": "",
+            "show_ocr_form": "0",
+            "nationality": ""
+        },
+        "document_two": {
+            "proof": "",
+            "supported_types": [
+                "passport"
+            ],
+            "verification_instructions": {
+                "allow_paper_based": "1",
+                "allow_photocopy": "1",
+                "allow_colorcopy": "1",
+                "allow_black_and_white": "1",
+                "allow_laminated": "1",
+                "allow_screenshot": "1",
+                "allow_cropped": "1",
+                "allow_scanned": "1",
+                "allow_e_document": "1",
+                "allow_handwritten_document": "1"
+            },
+            "name": {
+                "first_name": "",
+                "middle_name": "",
+                "last_name": "",
+                "fuzzy_match": ""
+            },
+            "additional_proof": "",
+            "dob": "",
+            "age": "",
+            "issue_date": "",
+            "expiry_date": "",
+            "document_number": "",
+            "allow_offline": "1",
+            "allow_online": "1",
+            "fetch_enhanced_data": "1",
+            "backside_proof_required": "0",
+            "verification_mode": "image_only",
+            "gender": "",
+            "show_ocr_form": "0",
+            "nationality": ""
+        },
+        "background_checks": {
+            "filters": [
+                "sanction",
+                "warning",
+                "fitness-probity",
+                "pep",
+                "pep-class-1",
+                "pep-class-2",
+                "pep-class-3",
+                "pep-class-4"
+            ]
+        }
+    },
+    "non_uae_flow_payload": {
+        "reference": "your_reference_number",
+        "country": "GB",
+        "language": "en",
+        "email": "",
+        "verification_mode": "image_only",
+        "allow_retry": "1",
+        "allow_warnings": "1",
+        "ttl": 60,
+        "allow_na_ocr_inputs": "0",
+        "document": {
+            "proof": "",
+            "supported_types": [
+                "passport"
+            ],
+            "verification_instructions": {
+                "allow_paper_based": "1",
+                "allow_photocopy": "1",
+                "allow_colorcopy": "1",
+                "allow_black_and_white": "1",
+                "allow_laminated": "1",
+                "allow_screenshot": "1",
+                "allow_cropped": "1",
+                "allow_scanned": "1",
+                "allow_e_document": "1",
+                "allow_handwritten_document": "1"
+            },
+            "name": {
+                "first_name": "",
+                "middle_name": "",
+                "last_name": "",
+                "fuzzy_match": ""
+            },
+            "additional_proof": "",
+            "dob": "",
+            "age": "",
+            "issue_date": "",
+            "expiry_date": "",
+            "document_number": "",
+            "allow_offline": "1",
+            "allow_online": "1",
+            "fetch_enhanced_data": "1",
+            "backside_proof_required": "0",
+            "verification_mode": "image_only",
+            "gender": "",
+            "show_ocr_form": "0",
+            "nationality": ""
+        },
+        "background_checks": {
+            "filters": [
+                "sanction",
+                "warning",
+                "fitness-probity",
+                "pep",
+                "pep-class-1",
+                "pep-class-2",
+                "pep-class-3",
+                "pep-class-4"
+            ]
+        }
+    }
+}
